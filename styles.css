@@ -6,7 +6,7 @@
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgb(158, 158, 196);
-    box-shadow: 4rem;
+    box-shadow: 0 0 10px;
     margin-left: 400px;
     margin-right: 400px;
 }
