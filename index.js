@@ -1,0 +1,1 @@
+const dislayArea = document.querySelector('display-area');
