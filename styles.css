@@ -7,9 +7,10 @@
     border-radius: 10px;
     background-color: rgb(158, 158, 196);
     box-shadow: 4rem;
-   
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
-.display-area {
+.container {
     display: grid;
 }
