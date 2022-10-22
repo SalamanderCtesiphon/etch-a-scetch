@@ -1,9 +1,11 @@
-
+* {
+    background-color: rgb(66, 66, 155);
+}
 
 #main-header {
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     background-color: rgb(158, 158, 196);
     box-shadow: 0 0 10px;
@@ -11,6 +13,18 @@
     margin-right: 400px;
 }
 
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
+    box-shadow: 0 0 10px;
     display: grid;
+    border: 2px solid white;
+    height: 500px;
+    width: 500px;
+    background-color: whitesmoke
+    
 }
