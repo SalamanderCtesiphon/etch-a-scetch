@@ -18,6 +18,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(marbles-ga659ffd6c_1280.jpg) no-repeat 
+    center center/ cover;
 }
 
 .container {
