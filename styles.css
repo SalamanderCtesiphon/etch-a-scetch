@@ -1,6 +1,11 @@
 * {
     background-color: rgb(66, 66, 155);
     box-sizing: border-box;
+    margin: 0px;
+}
+
+.header-container {
+    height: 120px;
 }
 
 #main-header {
@@ -8,13 +13,17 @@
     justify-content: center;
     border: 2px solid white;
     border-radius: 10px;
-    background-color: rgb(158, 158, 196);
+    background: url(marbles-ga659ffd6c_1280.jpg) no-repeat 
+    center center/ cover;
     box-shadow: 0 0 10px;
     margin-left: 400px;
     margin-right: 400px;
     margin-top: 40px;
     width: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(5, 190, 5);
+    text-shadow: 4px 0 0 rgb(8, 3, 3);
+    font-weight: bold;
 }
 
 .top-row {
@@ -28,7 +37,8 @@
 .reset-button {
     background-color: rgb(158, 158, 196);
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 6px;
+    font-weight: bold;
 
 }
 .main-body {
@@ -55,4 +65,5 @@
     justify-content: center;
     align-items: flex-end;
     height: 200px;
+    color: rgb(56, 54, 54);
 }
