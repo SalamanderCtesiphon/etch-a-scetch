@@ -48,3 +48,10 @@
     border-radius: 10px;
     
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+}
