@@ -26,6 +26,6 @@ function resetResolution () {
 
 resetButton.addEventListener('click', resetResolution);
 
-
+ 
 
 

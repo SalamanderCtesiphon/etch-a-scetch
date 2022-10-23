@@ -34,6 +34,13 @@
     margin-bottom: 20px;
 }
 
+button {
+    background-color: rgb(158, 158, 196);
+    border: 2px solid white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
 .reset-button {
     background-color: rgb(158, 158, 196);
     border: 2px solid white;
@@ -60,11 +67,22 @@
     
 }
 
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-button {
+    margin: 5px;
+    margin-top: 20px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 200px;
+    height: 160px;
     color: rgb(56, 54, 54);
 }
 
