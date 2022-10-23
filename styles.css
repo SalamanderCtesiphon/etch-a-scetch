@@ -1,5 +1,6 @@
 * {
     background-color: rgb(66, 66, 155);
+    box-sizing: border-box;
 }
 
 #main-header {
@@ -11,10 +12,25 @@
     box-shadow: 0 0 10px;
     margin-left: 400px;
     margin-right: 400px;
+    margin-top: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.body {
+.top-row {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.reset-button {
+    background-color: rgb(158, 158, 196);
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+.main-body {
     display: flex;
     justify-content: center;
     align-items: center;
