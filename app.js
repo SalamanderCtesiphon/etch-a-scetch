@@ -40,7 +40,11 @@ function colorSquare() {
 function changeColor(choice) {
     color = choice;
 }
-
+ function resetBoard() {
+    let container = document.querySelector('.container');
+    let squares = container.querySelectorAll('div');
+    squares.forEach((div) => div.style.backgroundColor = 'whitesmoke');
+ }
  
 
 
