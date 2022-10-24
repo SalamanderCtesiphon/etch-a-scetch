@@ -26,6 +26,11 @@
     font-weight: bold;
 }
 
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+
 .top-row {
     display: flex;
     flex-direction: column;
@@ -85,12 +90,12 @@ button {
     justify-content: center;
     align-items: flex-end;
     height: 190px;
-    color: rgb(56, 54, 54);
+    color: rgb(34, 54, 73);
 }
 
 input {
     background-color: whitesmoke;
     border-radius: 4px;
-    width: 123.65px;
+    width: 124px;
 }
 

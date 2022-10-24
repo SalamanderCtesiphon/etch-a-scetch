@@ -18,7 +18,12 @@
 
 
     <div class="top-row">
-        <input type="text" placeholder="Enter a number between 2 and 100" value="16">
+        <h3>Enter a number between 2 and 100</h3>
+        <input 
+        type="text" 
+        placeholder="Enter a number" 
+        value="16"
+        onchange='changeSize(this.value)'>
         <button class="reset-button">Reset Resolution</button>
     </div>
 
@@ -38,8 +43,8 @@
     <div class="footer-container">
         <button class="color-button">Black</button>
         <button class="color-button">Random</button>
-        <button class="color-button">Erase</button>
-        <button class="color-button">Reset</button>
+        <button class="color-button">Eraser</button>
+        <button class="color-button">Clear Board</button>
     </div>
 
     <p class="footer">Seamus Quixote for the Odin Project 2022</p>
