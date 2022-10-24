@@ -1,3 +1,6 @@
+let color = 'black';
+
+
 // a method to populate the container
 function populateBoard (size) {
     let container = document.querySelector('.container');
@@ -9,9 +12,7 @@ function populateBoard (size) {
     let amount = size * size;
     for (let i = 0; i < amount; i++) {
         let square = document.createElement('div');
-        square.addEventListener('mouseover', () => {
-            square.style.backgroundColor = "black";
-        });
+        square.addEventListener('mouseover', colorSquare)
         square.style.backgroundColor = 'whitesmoke';
         container.insertAdjacentElement('beforeend', square);
     }
@@ -28,6 +29,17 @@ function changeSize (input) {
     }
 }
 
+function colorSquare() {
+    if ((color === 'random')) {
+        this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+    } else {
+        this.style.backgroundColor = color;
+    }
+};
+
+function changeColor(choice) {
+    color = choice;
+}
 
  
 
