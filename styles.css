@@ -5,7 +5,7 @@
 }
 
 .header-container {
-    height: 120px;
+    height: 80px;
 }
 
 #main-header {
@@ -28,6 +28,7 @@
 
 .top-row {
     display: flex;
+    flex-direction: column;
     height: 60px;
     align-items: center;
     justify-content: center;
@@ -46,6 +47,7 @@ button {
     border: 2px solid white;
     border-radius: 6px;
     font-weight: bold;
+    margin: 5px;
 
 }
 .main-body {
@@ -84,5 +86,11 @@ button {
     align-items: flex-end;
     height: 160px;
     color: rgb(56, 54, 54);
+}
+
+input {
+    background-color: whitesmoke;
+    border-radius: 4px;
+    width: 123.65px;
 }
 

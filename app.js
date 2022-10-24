@@ -15,16 +15,7 @@ function changeColor(square) {
     square.style.backgroundColor = 'gray';
 }
 
-//add functionality to the reset button
 
-const resetButton = document.querySelector('.reset-button');
-
-
-function resetResolution () {
-    prompt('Please input a number between 2 and 100.')
-}
-
-resetButton.addEventListener('click', resetResolution);
 
  
 
