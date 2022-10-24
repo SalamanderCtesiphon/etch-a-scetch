@@ -7,13 +7,9 @@ for (let i = 0; i < 256; i++) {
     let square = document.createElement('div');
     square.style.backgroundColor = 'whitesmoke';
     square.classList.add('hover-effect');
-    square.addEventListener('onmouseenter', changeColor);
     container.insertAdjacentElement('beforeend', square);
 }
 
-function changeColor(square) {
-    square.style.backgroundColor = 'gray';
-}
 
 
 
